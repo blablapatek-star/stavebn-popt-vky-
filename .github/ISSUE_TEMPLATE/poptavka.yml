@@ -1,0 +1,20 @@
+name: Stavební poptávka
+description: Vyplň tento formulář pro novou poptávku stavebních prací
+title: "[Poptávka] "
+labels: lead
+body:
+  - type: input
+    id: jmeno
+    attributes:
+      label: Jméno a příjmení
+      placeholder: Josef Pátek
+  - type: input
+    id: email
+    attributes:
+      label: E-mail
+      placeholder: patek@profi-tvorba.cz
+  - type: textarea
+    id: popis
+    attributes:
+      label: Popis poptávky
+      placeholder: Typ prací, termín, lokalita…
